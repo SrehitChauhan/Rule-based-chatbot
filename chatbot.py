@@ -3,13 +3,13 @@ import time
 name=input("Enter your name for personalized experience:")
 present_time = datetime.datetime.now().hour
 if 5<=present_time < 12:
-    print("\t"," ","Good Morning",name)
+    print("\t","  ","Good Morning",name)
 elif 12<=present_time < 17:
-    print("\t"," ","Good Afternoon",name)
+    print("\t","  ","Good Afternoon",name)
 elif 17<=present_time < 20:
-    print("\t"," ","Good Evening",name)
+    print("\t","  ","Good Evening",name)
 else:
-    print("\t"," ","Good Night",name) 
+    print("\t","  ","Good Night",name) 
 time.sleep(1)
 print("\t")
 
@@ -72,8 +72,9 @@ while True:
 
     
     elif(inpt=="bye"):
-        print("Bye Take care!!!!",name)
+        print("\nBye Take care!!!!",name)
         break
     
     result=op(inpt)
     print("Bot Reply=",result)   
+    
